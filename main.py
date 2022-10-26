@@ -1,32 +1,18 @@
-# Meu primeiro projeto Python!!! 
+#meu primeiro  projeto python!
 #
-# print() = comando de saida
-print("Alo mundo!")
+#print () = comando de saida
+print ("alo mundo!")
 
-# Quando quiser guardar uma String! (frase)
-nome = "Henrique Poyatos"
-#Quando quiser guardar um número inteiro
-idade = 42
+#quiser guardar string | frase
+nome = "Michel"
+idade = 20
 
-#Exibir o meu nome (que está dentro da variável nome)
+#exibir o nome que esta dentro de uma variavel
 print(nome)
+#quando quiser exibir a farse minah idade é, completando com o conteudo da idade
+print ("minha idade é "+str(idade)+" anos" )
+print (f"minha idade é {idade} anos ")
+print ( "minha idade é {} anos".format (idade))
 
-#Quando quiser exibir a frase "Minha idade é " completando com o conteúdo da variável idade
-#print("Meu nome é "+nome)
-print("Minha idade é "+str(idade)+" anos")
-print(f"Minha idade é {idade} anos")
-print("Minha idade é {} anos".format(idade))
-
-#Quando quiser exibir "Meu nome é ... e tenho ... 
-#anos.." trocando pelas variáveis nome e idade
-print("Meu nome é {} e tenho {} anos".format(nome, idade))
-
-
-
-
-
-
-''' 
-Comentario em bloco
-
-'''
+#quando quiser exibir "meu nome é... e tenho... anos..." trocando pelas variavies nome e idade
+print ("meu nome é {} e tenho {} anos".format(nome, idade))
