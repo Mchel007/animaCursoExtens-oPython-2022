@@ -11,3 +11,5 @@ dobro = idade * 2
 print(f"o dobro da idade é {dobro}")
 #estrutura conicional o famoso if
 #se a pessoa for maior de idade mostre "vc é maior de idade ja pode beber e dirigir"
+if idade >= 18:
+  print ("você é maior de idade, otimo! já pode beber e dirigir")
