@@ -1,18 +1,13 @@
-#meu primeiro  projeto python!
-#
-#print () = comando de saida
-print ("alo mundo!")
+#comando input quero permintir que o usuario digite algo
 
-#quiser guardar string | frase
-nome = "Michel"
-idade = 20
+#comando de saida... exibir saída
 
-#exibir o nome que esta dentro de uma variavel
-print(nome)
-#quando quiser exibir a farse minah idade é, completando com o conteudo da idade
-print ("minha idade é "+str(idade)+" anos" )
-print (f"minha idade é {idade} anos ")
-print ( "minha idade é {} anos".format (idade))
+nome = input("digite seu nome: ")
+idade= int(input("qual sua idade: "))
+print(f"seu nome é {nome} e sua idade é {idade}")
 
-#quando quiser exibir "meu nome é... e tenho... anos..." trocando pelas variavies nome e idade
-print ("meu nome é {} e tenho {} anos".format(nome, idade))
+#e se eu quisesse mostrar o dobro d idade informada
+dobro = idade * 2
+print(f"o dobro da idade é {dobro}")
+#estrutura conicional o famoso if
+#se a pessoa for maior de idade mostre "vc é maior de idade ja pode beber e dirigir"
