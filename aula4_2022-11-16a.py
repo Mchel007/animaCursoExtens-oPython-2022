@@ -19,7 +19,7 @@ for pessoa in pessoas:
   print(pessoa)
 
 for pessoa in pessoas:
-  print(f"nome: {pessoa[1]} ({pessoa[3]})")
+  print(f"\nNome: {pessoa[1]} ({pessoa[3]})")
                 
 
 
